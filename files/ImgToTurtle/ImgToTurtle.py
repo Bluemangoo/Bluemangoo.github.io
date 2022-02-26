@@ -10,7 +10,7 @@ im = Image.open(filename)
 x, y = im.size
 print(x, y)
 
-f.write("import turtle\n\n")
+f.write("import turtle as t\n\n")
 f.write("canvasX = {}\n".format(x))
 f.write("canvasY = {}\n".format(y))
 
@@ -21,28 +21,28 @@ def d(x, y):
     return x - canvasX // 2, - y + canvasY // 2
 
 
-turtle.screensize(canvasX, canvasY, "white")
-turtle.penup()
-turtle.goto(d(0, 0))
-turtle.pendown()
-turtle.pensize(1)
-turtle.speed(0)
-turtle.colormode(255)
-turtle.delay(0)
-turtle.tracer({}, 0)
-turtle.hideturtle()
+t.screensize(canvasX, canvasY, "white")
+t.penup()
+t.goto(d(0, 0))
+t.pendown()
+t.pensize(1)
+t.speed(0)
+t.colormode(255)
+t.delay(0)
+t.tracer({}, 0)
+t.hideturtle()
 '''.format(x))
 
 for y in range(im.size[1]):
-    f.write("turtle.penup()\n")
-    f.write("turtle.goto(d(0, {}))\n".format(y))
-    f.write("turtle.pendown()\n")
+    f.write("t.penup()\n")
+    f.write("t.goto(d(0, {}))\n".format(y))
+    f.write("t.pendown()\n")
     n = 0
     for x in range(im.size[0] - 1):
         pix = im.getpixel((x, y))
         n += 1
         if x == im.size[0] - 1 or str(im.getpixel((x, y))) != str(im.getpixel((x + 1, y))):
-            f.write("turtle.pencolor" + str(pix)[:colorFormat] + ")" + "\n")
-            f.write("turtle.forward(" + str(n) + ")\n")
+            f.write("t.pencolor" + str(pix)[:colorFormat] + ")" + "\n")
+            f.write("t.forward(" + str(n) + ")\n")
             n = 0
-f.write("turtle.done()\n")
+f.write("t.done()\n")

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/02/26/hello-world/"/>
+    <url>/2022/02/26/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>干掉流氓软件</title>
+    <link href="/blogs/rogue-software/"/>
+    <url>/blogs/rogue-software/</url>
+    
+    <content type="html"><![CDATA[<p>教室电脑寒假中了流氓软件。<br>Fuck that.<br>写这篇博客，引以为戒。</p><h1 id="预防"><a href="#预防" class="headerlink" title="预防"></a>预防</h1><h2 id="IObit-Uninstaller"><a href="#IObit-Uninstaller" class="headerlink" title="IObit Uninstaller"></a>IObit Uninstaller</h2><p>用过的都知道，<a href="https://www.iobit.com/advanceduninstaller.php">IObit Uninstaller</a>是个好东西。</p><p>激活什么的，各位各显神通哈(doge)。</p><p>安装之后，把监控打开。</p><p>之后卸载软件都用它了。</p><h2 id="软件屏蔽器-mwp"><a href="#软件屏蔽器-mwp" class="headerlink" title="软件屏蔽器(mwp)"></a>软件屏蔽器(mwp)</h2><p>这是它Github仓库的<a href="https://github.com/the1812/malware-patch">链接</a>。</p><p>用了都说好。</p><p>建议按需屏蔽。</p><p>最好360别屏蔽了。还是会用到的。</p><h2 id="火绒"><a href="#火绒" class="headerlink" title="火绒"></a>火绒</h2><p>火绒是最良心的。众所周知。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>share</tag>
+      
+      <tag>windows</tag>
+      
+      <tag>流氓软件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Windows 11 子系统(WSA)安装方法</title>
+    <link href="/wsa/"/>
+    <url>/wsa/</url>
+    
+    <content type="html"><![CDATA[<p>之前安装了 <code>Windows Subsystem for Android™</code> ，顺手写篇教程吧。</p><p><img src="/files/wsa/wsa_logo.png" alt="Windows Subsystem for Android™"></p><h1 id="系统环境"><a href="#系统环境" class="headerlink" title="系统环境"></a>系统环境</h1><p>Windows 11</p><h1 id="下载WSA"><a href="#下载WSA" class="headerlink" title="下载WSA"></a>下载WSA</h1><p>打开这个网址：<a href="https://store.rg-adguard.net/">https://store.rg-adguard.net/</a></p><p>左侧选择 <code>ProductId</code> ，右侧选择 <code>Slow</code></p><p>中间的产品ID填 <code>9P3395VX91NR</code></p><p>然后点 “√” 开始解析。</p><p>解析完找到最下面那个（一个G以上的），下载下来。</p><h1 id="安装WSA"><a href="#安装WSA" class="headerlink" title="安装WSA"></a>安装WSA</h1><p>按 Win+X ，打开管理员权限的 Windows Terminal</p><p>Shift+右键下载下来的文件，选择”复制为路径”</p><p>在wt里面输入：</p><figure class="highlight powershell"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">add-appxpackage</span> 你复制的路径<br></code></pre></td></tr></table></figure><p>等待安装完成就行了。</p><h1 id="运行WSA"><a href="#运行WSA" class="headerlink" title="运行WSA"></a>运行WSA</h1><p>安装完成在开始菜单中运行<code>Windows Subsystem for Android™ Settings</code></p><p>点第一栏<code>文件</code>右侧的箭头</p><p>如果成功打开，那么恭喜你，安装完成了！（请跳转到<a href="/#%E9%85%8D%E7%BD%AEWSA">下一步</a>）</p><p>如果报错，请打开<code>appwiz.cpl</code>（直接在开始菜单搜索就行）</p><p>打开左侧<code>打开或关闭Windows功能</code></p><p>找到Hyper-V，勾上，点确定，完成后重启电脑。</p><p><em>这里注意一点，如果安装了非Hyper-V版本的VMware的话，需要卸载VMware。VMware 15 及以上支持安装Hyper-V版本，请在安装VMware的时候注意下。</em></p><p>如果Hyper-V这个复选框无法点击，请重启进入Bios设置并开启虚拟化。</p><p><em>不同主板的菜单不一样，如果不会请自行百度。</em><br><em>Bios里面找到带有virtual的基本上就是了。</em></p><p>再设置完成再次尝试打开Hyper-V</p><p>然后重启，再次尝试打开<code>Windows Subsystem for Android™ Settings</code>中的<code>文件</code></p><p><del>*再失败我也救不了你。</del>*</p><h1 id="配置WSA"><a href="#配置WSA" class="headerlink" title="配置WSA"></a>配置WSA</h1><p>下载 adb 工具 <em><a href="https://wwe.lanzouj.com/i0ZBH000j8ng">下载地址</a></em></p><p>将adb解压并添加到Path</p><p><em>建议解压到一个好找的地方，比如D:\\adb</em></p><p>在<code>Windows Subsystem for Android™ Settings</code>里面打开开发者模式。</p><p>打开一次<code>文件</code>并关闭。</p><p>打开<code>Windows Terminal</code>并输入：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell">adb connect <span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span>:<span class="hljs-number">58526</span><br></code></pre></td></tr></table></figure><p>等待连接成功。</p><p>接下来就可以使用adb了！</p><h1 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h1><p>建议下载一个应用市场，举个例子：</p><ul><li><a href="https://ucan.25pp.com/Wandoujia_web_seo_others_homepage.apk">豌豆荚</a></li><li><a href="https://dl.coolapk.com/down?pn=com.coolapk.market&id=NDU5OQ&h=46bb9d98&from=from-web">酷安</a></li><li><a href="https://apkpure.com/cn/apkpure/com.apkpure.aegon/download?from=aegon">APKPure</a></li></ul><p>使用以下命令安装apk（需要先连接WSA）</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell">adb install apk路径<br></code></pre></td></tr></table></figure><p><em>建议cd到下载目录安装。</em></p><p>然后就可以愉快的使用WSA了。</p><h1 id="显示网络受限的处理办法"><a href="#显示网络受限的处理办法" class="headerlink" title="显示网络受限的处理办法"></a>显示网络受限的处理办法</h1><p>由于谷歌的验证服务器被墙，需要改为国内服务器。</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs powershell">adb shell settings delete global captive_portal_http_url<br>adb shell settings delete global captive_portal_https_url<br>adb shell settings put global captive_portal_http_url http://www.google.cn/generate_204<br>adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204<br></code></pre></td></tr></table></figure><p>改完重启下WiFi就行</p><h1 id="一些提示"><a href="#一些提示" class="headerlink" title="一些提示"></a>一些提示</h1><p>重启可以解决一大半问题。</p><p>想要打开WSA的系统设置？</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell">adb shell am <span class="hljs-built_in">start</span> com.android.settings/com.android.settings.Settings<br></code></pre></td></tr></table></figure><p>玩机必备的一些应用：</p><ul><li><a href="https://github.com/termux/termux-app/releases">Termux</a></li><li><a href="https://github.com/Aefyr/SAI/releases">Sai</a></li></ul><p><em>以上提供的是Github的Release页面链接，速度过慢请自行作法。</em></p><p>尝试安装gms后发现play商店无法登录（具体表现为点击登录没有反应）</p><p>任意浏览器都无法加载网页，但是app可以</p><h1 id="ROOT"><a href="#ROOT" class="headerlink" title="ROOT!"></a>ROOT!</h1><p><a href="https://www.dianshouit.com/thread-814.htm">链接</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>share</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>

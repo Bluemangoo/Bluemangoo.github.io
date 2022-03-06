@@ -4,6 +4,29 @@
   
   
   <entry>
+    <title>图片转Python的turtle库代码</title>
+    <link href="/blogs/img-to-turtle"/>
+    <url>/blogs/img-to-turtle</url>
+    
+    <content type="html"><![CDATA[<h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>使用<code>Image</code>库读取图片</p><p>输出为py文件的代码</p><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>运行<code>ImgToTurtle.py</code></p><p>输入文件路径（包含扩展名）</p><p>生成的代码在<code>test.py</code></p><h1 id="储存库和下载"><a href="#储存库和下载" class="headerlink" title="储存库和下载"></a>储存库和下载</h1><p>Repository:</p><ul><li><a href="https://github.com/Bluemangoo/img-to-turtle">Github</a></li></ul><p>Download Zip:</p><ul><li><a href="https://github.com/Bluemangoo/img-to-turtle/archive/refs/heads/master.zip">Github</a></li><li><a href="https://archive.fastgit.org/Bluemangoo/img-to-turtle/archive/refs/heads/master.zip">mirror-fastgit.org(🇯🇵)</a></li><li><a href="https://pd.zwc365.com/seturl/https://github.com/Bluemangoo/img-to-turtle/archive/refs/heads/master.zip">mirror-zwc365.com(🇺🇸)</a></li><li><a href="https://github.do/https://github.com/Bluemangoo/img-to-turtle/archive/refs/heads/master.zip">mirror-github.do(🇨🇳)</a></li><li><a href="./files/img-to-turtle/img-to-turtle-master.zip">This site</a></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>代码</tag>
+      
+      <tag>开源</tag>
+      
+      <tag>Python</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Phigros电脑版</title>
     <link href="/blogs/pgr/"/>
     <url>/blogs/pgr/</url>

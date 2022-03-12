@@ -4,6 +4,38 @@
   
   
   <entry>
+    <title>英语书也会出错啊</title>
+    <link href="/blogs/pepfk/"/>
+    <url>/blogs/pepfk/</url>
+    
+    <content type="html"><![CDATA[<h1 id="位置"><a href="#位置" class="headerlink" title="位置"></a>位置</h1><p>普通高中教科书 英语 必修 第二册</p><p>ISBN: 978-7-107-33651-5</p><p>UNIT 4 - Reading and Thinking</p><p>Page: 41</p><p>Title: WHAT’S IN A NAME?</p><h1 id="详细信息"><a href="#详细信息" class="headerlink" title="详细信息"></a>详细信息</h1><p>第四段第 7 行<br>第 41 页第 1 行</p><p>原句：</p><blockquote><p>The Vikings came in the eighth century, left behind lots of new vocabulary, and also the names of many locations across the UK.</p></blockquote><p>这句话是有语法问题的。</p><p>简单来说，这句话的结构是：</p><p><code>主语</code> <code>谓语1</code>, <code>谓语2</code> <code>谓语2 - 宾语1</code>, and <code>谓语2 - 宾语2</code>.</p><p>不难发现，在两个谓语中间其实少了个<code>and</code>。</p><p>应该改成：</p><blockquote><p>The Vikings came in the eighth century, <em>and</em> left behind lots of new vocabulary, and also the names of many locations across the UK.</p></blockquote>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>杂谈</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>drc-1718</title>
+    <link href="/2022/03/12/drc-1718/"/>
+    <url>/2022/03/12/drc-1718/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>图片转Python的turtle库代码</title>
     <link href="/blogs/img-to-turtle/"/>
     <url>/blogs/img-to-turtle/</url>

@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>一个抛鸡蛋的小游戏</title>
+    <link href="/blogs/egg/"/>
+    <url>/blogs/egg/</url>
+    
+    <content type="html"><![CDATA[<h1 id="储存库和下载"><a href="#储存库和下载" class="headerlink" title="储存库和下载"></a>储存库和下载</h1><p>Repository:</p><ul><li><a href="https://github.com/Bluemangoo/egg">Github</a></li></ul><p>Download Zip:</p><ul><li><a href="https://github.com/Bluemangoo/egg/archive/refs/heads/master.zip">Github</a></li><li><a href="https://archive.fastgit.org/Bluemangoo/egg/archive/refs/heads/master.zip">mirror-fastgit.org(🇯🇵)</a></li><li><a href="https://pd.zwc365.com/seturl/https://github.com/Bluemangoo/egg/archive/refs/heads/master.zip">mirror-zwc365.com(🇺🇸)</a></li><li><a href="https://github.do/https://github.com/Bluemangoo/egg/archive/refs/heads/master.zip">mirror-github.do(🇨🇳)</a></li><li><a href="/files/blogs/egg/egg-master.zip">This site</a></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>代码</tag>
+      
+      <tag>开源</tag>
+      
+      <tag>Python</tag>
+      
+      <tag>游戏</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>《民主的细节》书评</title>
     <link href="/writing/1650286740/"/>
     <url>/writing/1650286740/</url>
